@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Simple JS Quiz</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Simple JavaScript Quiz</h1>
+            <p>Test your knowledge in JavaScript</p>
+        </header>
+
+        <section>
+            <div id="results"></div>
+        </section>
+
+        <form name="quizForm" id="quizForm" onsubmit="return submitAnswers()">
+            <h3>1. In which HTML element do we put in JavaScript code?</h3>
+            <input type="radio" name="q1" id="q1a" value="a">a.&lt;script&gt;<br/>
+            <input type="radio" name="q1" id="q1b" value="b">b.&lt;div&gt;<br/>
+            <input type="radio" name="q1" id="q1c" value="c">c.&lt;body&gt;<br/>
+            <input type="radio" name="q1" id="q1d" value="d">d.&lt;link&gt;<br/>
+
+            <h3>2.How would you write "Hello" in an alert?</h3>
+            <input type="radio" name="q2" id="q2a" value="a">a.&lt;print("Hello")&gt;<br/>
+            <input type="radio" name="q2" id="q2b" value="b">b.&lt;alertBox("Hello")&gt;<br/>
+            <input type="radio" name="q2" id="q2c" value="c">c.&lt;document.write("Hello");&gt;<br/>
+            <input type="radio" name="q2" id="q2d" value="d">d.&lt;alert("Hello");&gt;<br/>
+
+            <h3>3.JavaScript is directly related to Java programming language.</h3>
+            <input type="radio" name="q3" id="q3a" value="a">a.&lt;True&gt;<br/>
+            <input type="radio" name="q3" id="q3b" value="b">b.&lt;False&gt;<br/>
+        
+            <p><button type="submit">Submit Answers</button></p>           
+        </form>
+        
+    </div>    
+
+    <footer>
+        <p>Copyright &copy; 2020 All rights reserved.</p>
+    </footer>
+</body>
+</html> 
